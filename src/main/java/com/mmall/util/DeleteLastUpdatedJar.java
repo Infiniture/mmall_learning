@@ -4,8 +4,10 @@ package com.mmall.util;
 import java.io.File;
 import java.io.IOException;
 
-//列出File的一些常用操作
-public class util {
+/**
+ * 删除repository中以.lastUpdated结尾的jar包
+ */
+public class DeleteLastUpdatedJar {
     /**
      * 遍历指定目录下（包括其子目录）的所有文件，并删除以 lastUpdated 结尾的文件
      * @param dir 目录的位置 path
