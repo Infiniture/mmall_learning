@@ -1,4 +1,4 @@
-package com.mmall.controller.portal.backend;
+package com.mmall.controller.backend;
 
 import javax.servlet.http.HttpSession;
 
